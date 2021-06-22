@@ -1,7 +1,9 @@
 #include"Tcredito.hpp"
 
 Tcredito::Tcredito(float attBalanceAlCorte,int attlimiteDeCredito, string attBanco, 
-string attNumeroPlastico, string attNip,string attCodigoSeguridad){
+string attNumeroPlastico, string attNip,string attCodigoSeguridad, Vigencia attVigencia)
+:Tarjeta(attBanco, attNumeroPlastico, attNip, attCodigoSeguridad, attVigencia)
+{
     balanceAlCorte=attBalanceAlCorte;
     limiteDeCredito=attlimiteDeCredito;
 }   

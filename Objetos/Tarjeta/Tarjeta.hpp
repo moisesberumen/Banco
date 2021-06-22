@@ -1,4 +1,3 @@
-#include<string>
 
 using namespace std;
 class Tarjeta{
@@ -8,9 +7,14 @@ class Tarjeta{
         string numeroplastico;
         string nip;
         string codigoseguridad;
+        
+
     public:
+        Vigencia vigencia;
+
         Tarjeta();
-        Tarjeta(string attBanco, string attNumeroPlastico, string attNip,string attCodigoSeguridad);
+        Tarjeta(string attBanco, string attNumeroPlastico, string attNip,
+        string attCodigoSeguridad,Vigencia attVigencia);
 
         void setBanco(string attBanco);
         string getBanco();

@@ -1,12 +1,14 @@
 #include"Tarjeta.hpp"
 
 Tarjeta::Tarjeta(){}
-Tarjeta::Tarjeta(string attBanco, string attNumeroPlastico, string attNip, string attCodigoSeguridad){
+Tarjeta::Tarjeta(string attBanco, string attNumeroPlastico, string attNip,
+ string attCodigoSeguridad,Vigencia attVigencia){
 
       banco=attBanco;
       numeroplastico=attNumeroPlastico;
       nip=attNip;
       codigoseguridad=attCodigoSeguridad;
+      vigencia=attVigencia;
 }
 string Tarjeta::getBanco(){
     return banco;
