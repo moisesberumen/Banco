@@ -10,7 +10,7 @@ class Tcredito : public Tarjeta{
 
     public:
        Tcredito(float attBalanceAlCorte,int attlimiteDeCredito, string attBanco, 
-       string attNumeroPlastico, string attNip);
+       string attNumeroPlastico, string attNip,string attCodigoSeguridad);
 
         void setbalanceAlCorte(float attBalanceAlCorte);
         float getbalanceAlCorte();
