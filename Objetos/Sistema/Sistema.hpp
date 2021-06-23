@@ -18,8 +18,4 @@ class Sistema{
    void depositoEfectivo();
    void almacenaMovimiento();
    void consultaMovimiento();
-
-
-}
-
-
+};
