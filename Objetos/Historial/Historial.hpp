@@ -11,7 +11,9 @@ class Historial{
    
     public:
         Historial();
-        Historial(Movimiento movimientos[]);
+        void agregar(Movimiento movimiento);
+        int obtenerMovimiento(int posicion);
+        void despliega();
 
 
 };
