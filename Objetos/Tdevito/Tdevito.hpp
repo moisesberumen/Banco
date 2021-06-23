@@ -1,4 +1,7 @@
 
+#ifndef TDEVITO_HPP
+#define TDEVITO_HPP
+
 using namespace std;
 class Tdevito : public Tarjeta{
 
@@ -6,3 +9,5 @@ class Tdevito : public Tarjeta{
         Tdevito(string attBanco, string attNumeroPlastico, string attNip,string attCodigoSeguridad,
         Vigencia attVigencia);
 };
+
+#endif

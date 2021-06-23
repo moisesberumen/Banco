@@ -1,5 +1,8 @@
 #include<string>
 
+#ifndef VIGENCIA_HPP
+#define VIGENCIA_HPP
+
 using namespace std;
 class Vigencia{
 
@@ -18,3 +21,5 @@ class Vigencia{
     string getAnio();
 
 };
+
+#endif

@@ -1,3 +1,6 @@
+#ifndef TCREDITO_HPP
+#define TCREDITO_HPP
+
 #include<string>
 #include"../Tarjeta/Tarjeta.hpp"
 
@@ -19,3 +22,5 @@ class Tcredito : public Tarjeta{
         int getlimitedeCredito();
 
 };     
+
+#endif

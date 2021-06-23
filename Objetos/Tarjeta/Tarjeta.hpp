@@ -1,4 +1,9 @@
 
+#ifndef TARJETA_HPP
+#define TARJETA_HPP
+
+#include "../Vigencia/Vigencia.hpp"
+
 using namespace std;
 class Tarjeta{
 
@@ -28,5 +33,4 @@ class Tarjeta{
         void setCodigoSeguridad(string attCodigoSeguridad);
         string getCodigoSeguridad();
 };
-
- 
+#endif

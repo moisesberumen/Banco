@@ -5,6 +5,7 @@
 #include"Objetos/Vigencia/Vigencia.cpp"
 #include"Objetos/Tarjeta/Tarjeta.cpp"
 #include"Objetos/Tdevito/Tdevito.cpp"
+#include"Objetos/CuentaBancaria/CuentaBancaria.cpp"
 
 using namespace std;
 int main() {

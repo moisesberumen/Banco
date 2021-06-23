@@ -1,28 +1,28 @@
 #include"CuentaBancaria.hpp"
 
 CuentaBancaria::CuentaBancaria(){}
-CuentaBancaria::CuentaBancaria(string attTipoCuenta, string attNumeroCuenta, float attSaldo){
-
-tipocuenta=attTipoCuenta;
-numerocuenta=attNumeroCuenta;
-saldo=attSaldo;
+CuentaBancaria::CuentaBancaria(string attTipoCuenta, string attNumeroCuenta, float attSaldo, Cliente attCliente){
+    tipocuenta=attTipoCuenta;
+    numerocuenta=attNumeroCuenta;
+    saldo=attSaldo;
+    cliente=attCliente;
 }
-void tipocuenta::setTipoCuenta(string attTipoCuenta){
+void CuentaBancaria::setTipoCuenta(string attTipoCuenta){
     tipocuenta=attTipoCuenta;
 }
-string tipocuenta::getTipoCuenta(){
+string CuentaBancaria::getTipoCuenta(){
     return tipocuenta;
 }
-void numerocuenta::setNumeroCuenta(){
-    numerocuenta=attNumeroCuenta;
+void CuentaBancaria::setNumeroCuenta(string attNumerocuenta){
+    numerocuenta=attNumerocuenta;
 }
-string numerocuenta::getnumerocuenta(){
+string CuentaBancaria::getNumeroCuenta(){
     return numerocuenta;
 }
-void setSaldo(float attSaldo){
-    saldo=attsaldo;
+void CuentaBancaria::setSaldo(float attSaldo){
+    saldo=attSaldo;
 }
-float Saldo::getSaldo(){
+float CuentaBancaria::getSaldo(){
     return saldo;
 };
   

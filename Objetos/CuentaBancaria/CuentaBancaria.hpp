@@ -1,4 +1,8 @@
-#include"string"
+#ifndef CUENTABANCARIA_HPP
+#define CUENTABANCARIA_HPP
+
+#include "string"
+#include "../Cliente/Cliente.hpp"
 
 using namespace std;
 class CuentaBancaria{
@@ -12,8 +16,7 @@ private:
 
 public:
    CuentaBancaria();
-   CuentaBancaria(string attTipoCuenta, string attNumeroCuenta, float attSaldo
-   Cliente cliente);
+   CuentaBancaria(string attTipoCuenta, string attNumeroCuenta, float attSaldo, Cliente cliente);
 
    void setTipoCuenta(string attTipoCuenta);
     string getTipoCuenta();
@@ -24,11 +27,5 @@ public:
     void setSaldo(float attSaldo);
     float getSaldo();
   
-
-
-
-
-
-
-
 };
+#endif
